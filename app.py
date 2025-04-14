@@ -4,7 +4,7 @@ from zeroscratches import EraseScratches
 import numpy as np
 import io
 
-st.title("Oldie 😎")
+st.title("Oldiee 😎")
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
